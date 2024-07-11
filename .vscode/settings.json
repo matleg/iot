@@ -1,0 +1,21 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+    },
+    "ruff.lineLength": 120,
+    "git.ignoreLimitWarning": true,
+    "files.exclude": {
+        "**/venv": true,
+        "**/.coverage": true,
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${env:PYTHONPATH}:${workspaceFolder}/src:${workspaceFolder}/tests"
+    },
+}
