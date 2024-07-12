@@ -1,5 +1,9 @@
 # IoT
 
+Based on examples from https://microsoft.github.io/IoT-For-Beginners .
+
+Works with mosquitto on home assistant.
+
 ## Installation
 
 Counterfit

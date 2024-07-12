@@ -1,3 +1,8 @@
+"""
+this is the client,
+it subscribes to the command topic, and publish its state on the client topic so that the server reads it.
+"""
+
 import json
 import time
 
